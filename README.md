@@ -27,5 +27,6 @@ npm install
 
 ## Reproduction
 
-- Running `npm start` (serving with default options) leads to the error (in the browser console)
-- Running `npm start --aot` (serving with AoT enabled) does not lead to the error though
+- Running `npm run start` (serving with default options) leads to the error (in the browser console)
+- Running `npm run start:aot` (serving with AoT enabled) does not lead to the error though
+- Running `npm run start:symlinks` (serving with symlinks being preserved enabled) does also not lead to the error
