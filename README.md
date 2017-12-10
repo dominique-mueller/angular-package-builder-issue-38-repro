@@ -30,3 +30,10 @@ npm install
 - Running `npm run start` (serving with default options) leads to the error (in the browser console)
 - Running `npm run start:aot` (serving with AoT enabled) does not lead to the error though
 - Running `npm run start:symlinks` (serving with symlinks being preserved enabled) does also not lead to the error
+
+If copying over the library into the `node_modules` folder (instead of locally installing and thus linking it), the issue also seems to go
+away.
+
+## Solution
+
+Enable AoT in watch mode / preserve symlinks if library is used via local install
