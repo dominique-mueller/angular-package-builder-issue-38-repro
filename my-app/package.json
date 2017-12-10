@@ -6,6 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "start:aot": "ng serve --aot",
+    "start:symlinks": "ng serve --preserve-symlinks",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
