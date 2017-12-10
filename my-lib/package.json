@@ -1,0 +1,26 @@
+{
+    "name": "my-lib",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "angular-package-builder",
+        "postbuild": "copyfiles package.json dist"
+    },
+    "typings": "./my-lib.d.ts",
+    "main": "./bundles/my-lib.umd.js",
+    "module": "./esm5/my-lib.js",
+    "es2015": "./esm2015/my-lib.js",
+    "peerDependencies": {
+        "@angular/core": "5.x",
+        "@angular/common": "5.x"
+    },
+    "devDependencies": {
+        "@angular/common": "5.x",
+        "@angular/compiler-cli": "5.x",
+        "@angular/compiler": "5.x",
+        "@angular/core": "5.x",
+        "angular-package-builder": "1.0.x",
+        "copyfiles": "1.2.x",
+        "rxjs": "5.5.x",
+        "typescript": "2.4.x"
+    }
+}
